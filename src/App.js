@@ -1,6 +1,6 @@
 
 
-let API_Key = "fcdad555357675fa31f08e394ede826d";
+let API_Key = "";
 let GeoURL = null;
 let WeatherURL = null;
 let lat = null;
