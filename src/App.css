@@ -36,3 +36,167 @@
     transform: rotate(360deg);
   }
 }
+
+.p1 {
+  display: block;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  background-color: blue;
+}
+.p2 {
+  position: relative;
+  text-align: center;
+  width: 350px;
+  height: 500px;
+  left: 35%;
+  transform: translate(0px, -500px);
+  border: 1px solid black;
+  background-color: blue;
+}
+
+
+.p3 {
+  position: relative;
+  text-align: center;
+  width: 350px;
+  height: 500px;
+  left: 60%;
+  transform: translate(0px, -1000px);
+  border: 1px solid black;
+  background-color: blue;
+  
+}
+
+html {background-color: purple}
+
+.NavBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  
+}
+
+.NavBar li {
+  float: left;
+}
+
+ .NavBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: green;
+}
+
+.result {
+  position: absolute;
+  
+  justify-content: center;;
+  padding-top: 50px;
+  left: 25%;
+  
+  top: 50%;
+}
+.result table {
+  
+  padding-top: 10px;
+  /*
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px; 
+  */
+}
+
+.scrollBar ul {
+  list-style-type: none;
+  margin-left: 1300px;
+  position: fixed;
+  overflow: hidden;
+  background-color: black;
+  top: 10%;
+
+}
+
+.scrollBar li {
+  float: left;
+
+}
+
+.scrollBar a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+
+
+
+.result tr {
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+.result th {
+  border: 1px solid black;
+}
+
+.Search {
+  position: absolute;
+  left: 25%;
+  bottom: 50%;
+ 
+  height: 100px;
+}
+
+
+#enter {
+  position: relative;
+  left: 15%;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#search  {
+  
+  width: 600px;
+
+}
+
+
+.image {
+  width: 5000px;
+  height: 300px;
+  display: flex;
+}
+
+.image img {
+  
+  height: 10x;
+  width: 1450px;
+
+}
+
+.Image {
+  height: 10x;
+  width: 500px;
+}
+
+#map { height: 180px; }
+
+
+tr:hover {background-color: #D6EEEE;}

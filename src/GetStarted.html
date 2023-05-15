@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+    <div class="NavBar">
+     <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="GetStarted.html">5 Day Weather</a></li>
+        <li><a href="CurrentWeather.html">Current Weather</a></li>
+        <li style="float: right"><a href="" class="Contact">Contact</a></li>
+    </ul>
+</div>
+
+    <div id="map"></div>
+     
+    <link rel = "stylesheet" href="App.css" id="image">
+    <title>Get Started </title>
+</head>
+<body>
+    
+    <div class="scrollBar">
+        <ul>
+
+            <li><a href="weatherMap">Weather Map</a></li>
+            <li><a href="GetStarted.html">5 Day Weather</a></li>
+            <li><a href="CurrentWeather.html">Current Weather</a></li>
+
+
+        </ul>
+
+
+
+    </div>
+    
+    
+    
+    <div class="Image">
+        <img src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555434120/shape/mentalfloss/weatherprimary_0.png" height="500" width="1467" alt="Could not open image">
+    </div>
+
+    <div class="Search">
+        <input type="text" placeholder="Enter a ZIP code" id="search">
+        <input type="submit" id="enter" value="Search">
+    </div>
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src ="App.js" type="module"></script>
+
+</body>
+</html>
