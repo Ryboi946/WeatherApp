@@ -2,7 +2,7 @@
 const divItem = document.getElementById('enter');
 divItem.addEventListener('click', CurrentWeather);
 
-let API_Key = '';
+let API_Key = 'fcdad555357675fa31f08e394ede826d';
 let country_code = 'US';
 let GeoURL = null;
 
@@ -38,6 +38,7 @@ async function GetCoordinates(GeoURL) {
     let temp = data.main.temp;
 
     let p = document.createElement('p');
+    p.className = "temperature";
     p.textContent = temp;
 
     document.body.appendChild(p);

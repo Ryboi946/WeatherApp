@@ -92,13 +92,13 @@ html {background-color: purple}
 }
 
 li a:hover:not(.active) {
-  background-color: green;
+  background-color: red;
 }
 
 .result {
   position: absolute;
   
-  justify-content: center;;
+  justify-content: center;
   padding-top: 50px;
   left: 25%;
   
@@ -124,6 +124,14 @@ li a:hover:not(.active) {
 
 }
 
+
+.temperature {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  border: 1px solid black;
+}
+
 .scrollBar li {
   float: left;
 
@@ -135,6 +143,25 @@ li a:hover:not(.active) {
   color: white;
   text-align: center;
   padding: 10px 10px;
+  text-decoration: none;
+}
+
+.NavBar2 ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background-color: black;
+  
+  list-style-type: none;
+}
+
+.NavBar2 li a{
+  float: left;
+  padding: 10px;
+  color: white;
+  border: 1px solid green;
+  
   text-decoration: none;
 }
 
